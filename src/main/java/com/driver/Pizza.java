@@ -66,9 +66,9 @@ Total Price: 470
         // your code goes here
 
         bill = "Base Price Of The Pizza: "+p+"\n" +
-                "Extra Cheese Added: "+extraCheesePrice*countCheese+"\n" +
-                "Extra Toppings Added: "+extraToppingsPrice*countT+"\n" +
-                "Paperbag Added: "+takeAwayPrice*countTakeAway+"\n" +
+                "Extra Cheese Added: "+extraCheesePrice+"\n" +
+                "Extra Toppings Added: "+extraToppingsPrice+"\n" +
+                "Paperbag Added: "+takeAwayPrice+"\n" +
                 "Total Price: "+price+"\n";
         return this.bill;
     }
